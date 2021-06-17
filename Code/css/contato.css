@@ -1,0 +1,250 @@
+/* Estilo Gerak */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #330066;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+/* Header */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 15px 0;
+  background: #ffbf00;
+  border-bottom: 2px solid black;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.header_menu ul li a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+.header_menu ul li a.menu_ativo3 {
+  color: #fff;
+}
+
+/* Corpo */
+
+.subtitulo_contato {
+  margin-top: 120px;
+  padding-bottom: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #ffbf00;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subtitulo_contato:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background: #ffbf00;
+  margin: 10px auto 10px auto;
+}
+
+.contato {
+  padding: 40px 0;
+}
+.contato_form {
+  padding-right: 60px;
+}
+.contato_form label {
+  display: block;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 4px;
+}
+
+.contato_form input {
+  display: block;
+  width: 100%;
+  border: 4px solid #ffbf00;
+  background: none;
+  color: #fff;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.contato_form textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 4px solid #ffbf00;
+  background: none;
+  color: #fff;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.contato_form button {
+  padding: 7px 40px;
+  background: none;
+  border: 3px solid #ffbf00;
+  font-size: 18px;
+  color: #fff;
+}
+
+.contato_form button:hover {
+  border-color: #fff;
+}
+
+.contato_dados {
+  color: #fff;
+}
+
+.contato_dados h3 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffbf00;
+  font-weight: bold;
+}
+
+.contato_dados span:nth-of-type(even) {
+  margin-bottom: 30px;
+}
+
+.contato_dados span {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.contato_dados ul {
+  margin-top: 10px;
+}
+
+.contato_dados ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.contato_dados ul li a {
+  border: 3px solid #ffbf00;
+  display: block;
+  width: 86px;
+  height: 62px;
+}
+.contato_dados ul li a:hover {
+  border-color: #fff;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 150px;
+  margin-top: 35px;
+  border: 3px solid #ffbf00;
+}
+
+.mapa iframe:hover {
+  border-color: #fff;
+}
+/* Footer */
+
+.footer {
+  width: 100%;
+  background: #ffbf00;
+  color: black;
+  padding: 20px 20px;
+  margin-top: 5px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background: black;
+  margin: 5px 0 10px 0;
+}
+
+.contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.redes ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.redes ul li a {
+  border: 3px solid black;
+  display: block;
+  width: 86px;
+  height: 62px;
+}
+.redes ul li a:hover {
+  border-color: #fff;
+}
+
+.copyright {
+  padding: 10px 0;
+  border-top: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: -15px;
+}
+
+.link_henrique a {
+  text-decoration: none;
+  color: black;
+}
+
+.link_henrique a:hover {
+  color: white;
+}

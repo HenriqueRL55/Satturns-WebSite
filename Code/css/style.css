@@ -1,0 +1,323 @@
+/* Estilo Gerak */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #330066;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 15px 0;
+  background: #ffbf00;
+  border-bottom: 2px solid black;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.header_menu ul li a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+/* Introdução */
+.introducao {
+  width: 100%;
+  background: url("../img/KombiExtended.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 82.98px;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding-top: 80px;
+  border-bottom: 1px solid #ffbf00;
+}
+
+.introducao h1 {
+  font-size: 48px;
+  color: #ffbf00;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.sub {
+  color: #ffbf00;
+  font-size: 24px;
+}
+
+.description p:before {
+  content: "";
+  display: block;
+  width: 102px;
+  height: 1px;
+  background: #ffbf00;
+  margin: -10px auto 10px auto;
+}
+
+/*Artes*/
+
+.subtitulo_index {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #ffbf00;
+  text-transform: uppercase;
+  text-align: center;
+}
+.subtitulo_index:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background: #ffbf00;
+  margin: 10px auto 10px auto;
+}
+
+.container_artes li {
+  text-align: center;
+}
+
+.container_artes img {
+  margin-left: 22px;
+}
+.artes {
+  padding: 60px 0;
+}
+.art_border {
+  border: 2px solid #ffbf00;
+}
+
+.btn {
+  border: 3px solid #ffbf00;
+  padding: 10px 30px;
+  color: #ffbf00;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  background: #5000ff;
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.ver_mais {
+  text-align: center;
+  clear: both;
+  padding: 30px 0;
+  margin-bottom: 10px;
+}
+
+/* Sobre */
+.background_sobre {
+  width: 100%;
+  height: 430px;
+  background-color: #ffbf00;
+}
+
+.art_border4 {
+  border: 2px solid black;
+}
+
+.container_sobre li {
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.texto_sobre {
+  text-align: center;
+  padding: 10px 35px;
+  margin: 50px 0 10px 0;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*Tatuagens*/
+.subtatu {
+  margin-top: 50px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #ffbf00;
+  text-transform: uppercase;
+  text-align: center;
+}
+.subtatu:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background: #ffbf00;
+  margin: 10px auto 10px auto;
+}
+
+.container_imagem_tatuagem img {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.container_imagem_tatuagem {
+  margin-top: 35px;
+  padding-bottom: 350px;
+}
+.texto_tatuagens {
+  text-align: center;
+  padding: 10px 35px;
+  margin: 10px 0 0 0;
+  color: #ffbf00;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.art_border5 {
+  border: 2px solid #ffbf00;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  background: #ffbf00;
+  color: black;
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background: black;
+  margin: 5px 0 10px 0;
+}
+
+.contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.redes ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.redes ul li a {
+  border: 3px solid black;
+  display: block;
+  width: 86px;
+  height: 62px;
+}
+.redes ul li a:hover {
+  border-color: #fff;
+}
+
+.copyright {
+  padding: 10px 0;
+  border-top: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: -15px;
+}
+
+.link_henrique a {
+  text-decoration: none;
+  color: black;
+}
+
+.link_henrique a:hover {
+  color: white;
+}
+
+/* JavaScript Navegação Tatoo */
+
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  text-align: right;
+  margin-top: -50px;
+  margin-right: 215px;
+}
+
+.js [data-slide-nav] > button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  text-indent: -99px;
+  overflow: hidden;
+  background: #ffbf00;
+}
+
+.js [data-slide-nav] > button.active {
+  background: #5000ff;
+}

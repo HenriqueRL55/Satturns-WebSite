@@ -1,0 +1,188 @@
+/* Estilo Gerak */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #330066;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+/* Header */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 15px 0;
+  background: #ffbf00;
+  border-bottom: 2px solid black;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.header_menu ul li a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+.header_menu ul li a.menu_ativo2 {
+  color: #fff;
+}
+/*Parcerias*/
+
+.subtitulo {
+  margin-top: 120px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #ffbf00;
+  text-transform: uppercase;
+  text-align: center;
+}
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background: #ffbf00;
+  margin: 10px auto 10px auto;
+}
+
+.container_imagem_rock img {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.container_imagem_rock {
+  margin-top: 35px;
+}
+.texto_geral {
+  text-align: center;
+  padding: 10px 35px;
+  margin: 10px 0 0 0;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.text_position {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.art_border6 {
+  border: 2px solid #000;
+}
+
+.container_parceria {
+  background: #ffbf00;
+  width: 100%;
+  height: 850px;
+}
+
+.image_position {
+  margin-top: 20px;
+  margin-left: 7.5px;
+}
+
+/*Waves*/
+
+.waves {
+  background: url("../img/yellow_waves.svg") center;
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 300px;
+  border-bottom: 1px solid black;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  background: #ffbf00;
+  color: black;
+  padding: 20px 20px;
+  margin: -85px 0 0 0;
+  border-top: 1px solid black;
+}
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background: black;
+  margin: 5px 0 10px 0;
+}
+
+.contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.redes ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.redes ul li a {
+  border: 3px solid black;
+  display: block;
+  width: 86px;
+  height: 62px;
+}
+.redes ul li a:hover {
+  border-color: #fff;
+}
+
+.copyright {
+  padding: 10px 0;
+  border-top: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: -15px;
+}
+
+.link_henrique a {
+  text-decoration: none;
+  color: black;
+}
+
+.link_henrique a:hover {
+  color: white;
+}
